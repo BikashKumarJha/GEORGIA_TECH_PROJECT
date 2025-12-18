@@ -1,0 +1,106 @@
+html, body {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: #1e1e1e !important;
+  color: #eee !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.popup-content {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 6px;
+}
+/* Legend Styles (Dark Theme) */
+.leaflet-control.legend {
+  background: rgba(30, 30, 30, 0.9) !important;
+  color: #eee !important;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #444;
+}
+
+.legend h4 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.legend i {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
