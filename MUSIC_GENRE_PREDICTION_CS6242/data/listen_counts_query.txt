@@ -1,0 +1,20 @@
+SELECT
+  l.listened_at,
+  l.user_name,
+  l.artist_msid,
+  l.artist_name,
+  l.recording_msid,
+  COUNT(DISTINCT l.user_name) AS user_count,
+  COUNT(*) AS listen_count
+FROM
+  `listenbrainz.listenbrainz.listen` AS l
+JOIN
+  `galvanic-pulsar-403105.new.new_table` AS a
+ON
+  l.artist_name = a.artist_name
+GROUP BY
+  l.listened_at,
+  l.user_name,
+  l.artist_msid,
+  l.artist_name,
+  l.recording_msid;

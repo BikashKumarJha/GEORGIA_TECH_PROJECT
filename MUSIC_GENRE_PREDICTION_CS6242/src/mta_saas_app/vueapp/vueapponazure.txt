@@ -1,0 +1,4 @@
+az acr login --name music
+docker build -t mivta_ui  .
+docker tag mivta_ui music.azurecr.io/mivta_ui 
+docker push music.azurecr.io/mivta_ui 
