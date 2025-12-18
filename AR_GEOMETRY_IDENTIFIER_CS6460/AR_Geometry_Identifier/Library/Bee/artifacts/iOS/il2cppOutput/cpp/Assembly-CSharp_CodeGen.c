@@ -1,0 +1,116 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87 (void);
+extern void NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B (void);
+extern void NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C (void);
+extern void ARInteractionManager_Start_mAC02756024189DE5784F06058BBCF3EFB7350C78 (void);
+extern void ARInteractionManager_InitializeShapeButtons_m4153A1BF8AC5EC07D64108F48DC7D50E47F7D81D (void);
+extern void ARInteractionManager_OnShapeSelected_m2E04AAB0635E39F4B8D1D049F510A0A50F462C8F (void);
+extern void ARInteractionManager_Update_m08D439273946D0A493F779E77EADEAA64613BF1D (void);
+extern void ARInteractionManager_PlaceCurrentShape_mD7025FDE766910B458C2609C8D50B4C679D729C4 (void);
+extern void ARInteractionManager_UpdateChallenge_m45C87BD3688502B950695B92AB61782C2D9D078B (void);
+extern void ARInteractionManager_TogglePlaneVisibility_m41DB6E542E24A2DFDFF99412924C347F400F6994 (void);
+extern void ARInteractionManager__ctor_mC8C32BABB3C61B75AB479A5B58F87EEB9085BE78 (void);
+extern void U3CU3Ec__DisplayClass15_0__ctor_m81F69C2D8CC6A0F2572C25EB5058E9C853BB857C (void);
+extern void U3CU3Ec__DisplayClass15_0_U3CInitializeShapeButtonsU3Eb__0_m5CDC8C6445A307BB3684837F1D3FFA52A782FC30 (void);
+extern void ShapeIdentifier_Start_mD71410F88C02F3E8F09F019D148E5FA8AEAA007F (void);
+extern void ShapeIdentifier_OnShapeTapped_m55D59ABF37D4D93FB33301CBED72FD1872327BC2 (void);
+extern void ShapeIdentifier_PulseAnimation_m6C9114857BFFC9DC0E75302D393B2F1D54C3AE49 (void);
+extern void ShapeIdentifier__ctor_mEC4DC1A6C3F9797C95A43B4DEB0230D3A38AC67D (void);
+extern void U3CPulseAnimationU3Ed__8__ctor_m2F111445189E6A7613EBD2C2E7892C2E4AE005CB (void);
+extern void U3CPulseAnimationU3Ed__8_System_IDisposable_Dispose_m9F0F7B751A5BDD9EFDE9E61EE6509C0A50BFA31F (void);
+extern void U3CPulseAnimationU3Ed__8_MoveNext_mD9A1C53C05BB197330B5C9C7489DB605838D5755 (void);
+extern void U3CPulseAnimationU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC2739D4445BB333239EC6D352A45437759749A43 (void);
+extern void U3CPulseAnimationU3Ed__8_System_Collections_IEnumerator_Reset_m4856B44E1775E7022CEA44FC7C47B48617ED883D (void);
+extern void U3CPulseAnimationU3Ed__8_System_Collections_IEnumerator_get_Current_mC087540476BA7CA4D10D503A94644076E6057241 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87,
+	NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B,
+	NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C,
+	ARInteractionManager_Start_mAC02756024189DE5784F06058BBCF3EFB7350C78,
+	ARInteractionManager_InitializeShapeButtons_m4153A1BF8AC5EC07D64108F48DC7D50E47F7D81D,
+	ARInteractionManager_OnShapeSelected_m2E04AAB0635E39F4B8D1D049F510A0A50F462C8F,
+	ARInteractionManager_Update_m08D439273946D0A493F779E77EADEAA64613BF1D,
+	ARInteractionManager_PlaceCurrentShape_mD7025FDE766910B458C2609C8D50B4C679D729C4,
+	ARInteractionManager_UpdateChallenge_m45C87BD3688502B950695B92AB61782C2D9D078B,
+	ARInteractionManager_TogglePlaneVisibility_m41DB6E542E24A2DFDFF99412924C347F400F6994,
+	ARInteractionManager__ctor_mC8C32BABB3C61B75AB479A5B58F87EEB9085BE78,
+	U3CU3Ec__DisplayClass15_0__ctor_m81F69C2D8CC6A0F2572C25EB5058E9C853BB857C,
+	U3CU3Ec__DisplayClass15_0_U3CInitializeShapeButtonsU3Eb__0_m5CDC8C6445A307BB3684837F1D3FFA52A782FC30,
+	ShapeIdentifier_Start_mD71410F88C02F3E8F09F019D148E5FA8AEAA007F,
+	ShapeIdentifier_OnShapeTapped_m55D59ABF37D4D93FB33301CBED72FD1872327BC2,
+	ShapeIdentifier_PulseAnimation_m6C9114857BFFC9DC0E75302D393B2F1D54C3AE49,
+	ShapeIdentifier__ctor_mEC4DC1A6C3F9797C95A43B4DEB0230D3A38AC67D,
+	U3CPulseAnimationU3Ed__8__ctor_m2F111445189E6A7613EBD2C2E7892C2E4AE005CB,
+	U3CPulseAnimationU3Ed__8_System_IDisposable_Dispose_m9F0F7B751A5BDD9EFDE9E61EE6509C0A50BFA31F,
+	U3CPulseAnimationU3Ed__8_MoveNext_mD9A1C53C05BB197330B5C9C7489DB605838D5755,
+	U3CPulseAnimationU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC2739D4445BB333239EC6D352A45437759749A43,
+	U3CPulseAnimationU3Ed__8_System_Collections_IEnumerator_Reset_m4856B44E1775E7022CEA44FC7C47B48617ED883D,
+	U3CPulseAnimationU3Ed__8_System_Collections_IEnumerator_get_Current_mC087540476BA7CA4D10D503A94644076E6057241,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	6952,
+	6952,
+	6952,
+	6952,
+	6952,
+	5411,
+	6952,
+	5546,
+	5411,
+	5333,
+	6952,
+	6952,
+	6952,
+	6952,
+	6952,
+	6838,
+	6952,
+	5411,
+	6952,
+	6718,
+	6838,
+	6952,
+	6838,
+	10347,
+	6952,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	25,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
